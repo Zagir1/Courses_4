@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Сотрудник месяца</title>
+    <link rel="icon" type="Image/x-icon" href="pictures/employee_of_the_month_pic.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<body>
+    <style>
+    body {
+	background: #E0FFFF
+	}
+    button {
+	background: #7FFFD4
+	}	
+    label {
+	background: #7FFFD4
+	}
+    </style>
+    <h2>Сотрудник месяца</h2>
+    <div class="mb-3 row">
+        <label for="full_name_month" class="col-sm-1 col-form-label">ФИО:</label>
+        <div class="col-sm-10">
+            <input type="text" readonly class="form-control-plaintext" id="full_name_month" value="Шёрсткин А.В.">
+        </div>
+    </div>
+    <div class="mb-3 row">
+        <label for="job_title_month" class="col-sm-1 col-form-label">Должность:</label>
+        <div class="col-sm-10">
+            <input type="text" readonly class="form-control-plaintext" id="job_title_month" value="Начальник отдела снабжения шерстью">
+        </div>
+    </div>
+    <div class="mb-3 row">
+        <label for="home_address_month" class="col-sm-1 col-form-label">Домамшний адрес:</label>
+        <div class="col-sm-10">
+            <input type="text" readonly class="form-control-plaintext" id="home_address_month" value="г. Уфа, ул. Большая Шерстомойная, д. S, кв. E">
+        </div>
+    </div>
+    <div class="mb-3 row">
+        <label for="number_month" class="col-sm-1 col-form-label">Телефон:</label>
+        <div class="col-sm-10">
+            <input type="text" readonly class="form-control-plaintext" id="number_month" value="+79631002022">
+        </div>
+    </div>
+    <div class="mb-3 row">
+        <label for="employee_mail_month" class="col-sm-1 col-form-label">E-mail:</label>
+        <div class="col-sm-10">
+            <input type="text" readonly class="form-control-plaintext" id="employee_mail_month" value="sHeRsT_sIlA_@mail.ru">
+        </div>
+    </div>
+    <h5>Дополнительные функции</h5>
+	<button onclick="document.location='list_of_employees.html'">Вернуться к списку всех сотрудников</button>
+    	<button onclick="document.location='add_employee.html'">Перейти к форме добавления сотрудника</button>
+</body>
+</html>
